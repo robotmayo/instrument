@@ -12,7 +12,5 @@ App.get('/', function(req, res){
     res.send('Open faced sandwiches are lies'); 
 });
 
-App.listen(process.env.APP_PORT, function(){
-    log.info('Listening on %s', process.env.APP_PORT);
-});
+export default App;
 
